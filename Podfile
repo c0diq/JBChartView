@@ -2,7 +2,7 @@ platform :ios, '9.0'
 
 plugin 'cocoapods-rome'
 
-pod "JBChartView"
+pod "JBChartView", :git => "https://github.com/Autoc0diq/JBChartView-Fix.git", :branch => "master"
 
 use_frameworks!
 
